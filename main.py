@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.svm import LinearSVC
 import pickle
 from sklearn.metrics import classification_report,confusion_matrix,accuracy_score
-
+#HELLOOO DERE
 # load the vectorizer
 loaded_vectorizer = pickle.load(open('vectorizer.pickle', 'rb'))
 # load the model
